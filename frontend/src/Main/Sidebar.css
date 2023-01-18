@@ -1,0 +1,21 @@
+.sidebar-main {
+    width: 20%;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.sidebar-search {
+    color: #808080;
+}
+
+.sidebar-search input {
+    background-color: #292929;
+    border: none;
+    height: 31px;
+    border-radius: 5px;
+    padding: 3px;
+    width: 75%;
+    color: #808080;
+}
