@@ -4,4 +4,30 @@ div {
 
 .navbar-body {
     display: flex;
+    overflow: hidden;
+    background-color: #242121;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.button{
+    background-color: #242121;
+    float: left;
+    position: relative;
+    right: -50%;
+    font-family: Verdana;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: white;
+    color: #242121;
+}
+
+.button:active{
+    background-color: white;
+    color: #242121;
 }

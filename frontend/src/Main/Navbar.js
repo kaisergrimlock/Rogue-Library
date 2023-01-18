@@ -11,10 +11,11 @@ function navbar() {
             <div className='navbar-search'>
                 <input type='text' className='navbar-search' placeholder='Search' alt='logo'/>
             </div>
-            <div className='navbar-button'>
-                <button>X</button>
-                <button>X</button>
-                <button>X</button>
+            <div>
+                <button className='button'>40K Stories</button>
+                <button className='button'>40K Tabletop</button>
+                <button className='button'>Tabletop Games</button>
+                <button className='button'>Other Books</button>
             </div>
         </div>
     </div>
