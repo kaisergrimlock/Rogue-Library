@@ -1,17 +1,25 @@
-div {
-    border: 1px solid black;
-}
-
 .navbar-body {
-    display: flex;
     overflow: hidden;
     background-color: #242121;
     font-family: Verdana;
     text-align: center;
 }
 
+div {
+    border: 1px solid white;
+}
+
+.navbar-top {
+    display: flex;
+}
+
+.navbar-bottom {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .button{
-    background-color: #242121;
+    background-color: black;
     float: left;
     position: relative;
     right: -50%;
@@ -30,4 +38,23 @@ div {
 .button:active{
     background-color: white;
     color: #242121;
+}
+
+.navbar-search {
+    color: #808080;
+    margin-left: auto;
+    margin-right: auto;
+    width: 678px;
+    margin-top: 23px;
+    margin-bottom: 24px;
+}
+
+.navbar-search input {
+    background-color: #292929;
+    border: none;
+    height: 31px;
+    border-radius: 5px;
+    padding: 3px;
+    width: 75%;
+    color: #808080;
 }
